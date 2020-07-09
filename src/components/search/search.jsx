@@ -3,7 +3,11 @@ import './search.css'
 
 const Search = ({ onchange }) => (
   <div className='search'>
-    <input type='text' onChange={onchange} placeholder='Search' />
+    <input
+      type='text'
+      onChange={onchange}
+      placeholder='Anything that you remember about a emoj...'
+    />
   </div>
 )
 

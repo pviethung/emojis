@@ -1,6 +1,6 @@
 .search {
   background-color: aquamarine;
-  height: 100px;
+  height: 20%;
   border-radius: 10px;
   margin-bottom: 10px;
   display: flex;
@@ -9,6 +9,7 @@
 }
 
 input {
+  width: 35%;
   padding: 10px 25px;
   outline: none;
   border: 0;

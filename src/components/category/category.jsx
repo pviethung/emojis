@@ -48,10 +48,10 @@ class Category extends React.Component {
         <div className='left'>
           <CategoryItem title='Emojis' emojis={this.getFilteredEmojis()} />
         </div>
-        {/* <div className='right'>
+        <div className='right'>
           <CategoryItem title='smileys emotion' emojis={this.cat1} />
           <CategoryItem title='people body' emojis={this.cat2} />
-        </div> */}
+        </div>
       </div>
     </div>
   )

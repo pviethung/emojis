@@ -4,7 +4,6 @@ import './emoji.css'
 const Emoji = ({ character, unicodeName }) => (
   <div className='emoji'>
     <span role='img'>{character}</span>
-    <p>{unicodeName}</p>
   </div>
 )
 

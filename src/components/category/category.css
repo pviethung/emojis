@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   text-align: center;
+  height: 100%;
 }
 
 .items {
@@ -9,6 +10,7 @@
   border-radius: 10px;
   display: flex;
   padding: 10px;
+  height: 80%;
 }
 
 .items > * {
@@ -16,14 +18,21 @@
   margin: 15px;
 }
 
+h1 {
+  padding-bottom: 50px;
+}
 .left {
   width: 60%;
 }
 
-h1 {
-  padding-bottom: 50px;
-}
-
 .right {
   width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between !important;
+}
+
+.right > * {
+  margin: 0 !important;
+  flex: 0 1 45%;
 }
