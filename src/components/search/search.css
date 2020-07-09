@@ -1,0 +1,16 @@
+.search {
+  background-color: aquamarine;
+  height: 100px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  padding: 10px 25px;
+  outline: none;
+  border: 0;
+  text-align: center;
+}

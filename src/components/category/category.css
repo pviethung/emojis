@@ -1,0 +1,29 @@
+.category {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.items {
+  background-color: aquamarine;
+  border-radius: 10px;
+  display: flex;
+  padding: 10px;
+}
+
+.items > * {
+  flex: auto;
+  margin: 15px;
+}
+
+.left {
+  width: 60%;
+}
+
+h1 {
+  padding-bottom: 50px;
+}
+
+.right {
+  width: 30%;
+}

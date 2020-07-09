@@ -1,0 +1,13 @@
+.emoji {
+  width: 100px;
+  height: 250px;
+  margin-bottom: 10px;
+}
+
+span {
+  font-size: 30px;
+}
+
+p {
+  padding: 0 10px;
+}
